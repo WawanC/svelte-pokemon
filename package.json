@@ -1,0 +1,44 @@
+{
+  "name": "pokemon-app",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+    "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+    "lint": "prettier --check .",
+    "format": "prettier --write .",
+    "generate": "graphql-codegen --watch"
+  },
+  "devDependencies": {
+    "@0no-co/graphqlsp": "^1.12.14",
+    "@graphql-codegen/cli": "^5.0.2",
+    "@graphql-codegen/client-preset": "^4.3.3",
+    "@graphql-codegen/schema-ast": "^4.1.0",
+    "@graphql-codegen/typescript": "^4.0.9",
+    "@graphql-codegen/typescript-operations": "^4.2.3",
+    "@iconify/svelte": "^4.0.2",
+    "@parcel/watcher": "^2.4.1",
+    "@sveltejs/adapter-auto": "^3.0.0",
+    "@sveltejs/kit": "^2.0.0",
+    "@sveltejs/vite-plugin-svelte": "^3.0.0",
+    "autoprefixer": "^10.4.20",
+    "graphql": "^16.9.0",
+    "postcss": "^8.4.47",
+    "prettier": "^3.1.1",
+    "prettier-plugin-svelte": "^3.1.2",
+    "svelte": "^4.2.7",
+    "svelte-check": "^4.0.0",
+    "tailwindcss": "^3.4.13",
+    "typescript": "^5.6.2",
+    "vite": "^5.0.3"
+  },
+  "type": "module",
+  "dependencies": {
+    "@apollo/client": "^3.11.8",
+    "firebase": "^10.13.2",
+    "tailwind-merge": "^2.5.2"
+  }
+}
